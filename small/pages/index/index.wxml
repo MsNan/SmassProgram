@@ -1,0 +1,24 @@
+<view class="container">
+    <view class="map_con">
+        <map class="map" longitude="{{longitude}}" latitude="{{latitude}}"  controls="{{controls}}" scale="14" show-location>
+            <cover-view class="pin_con">
+                <cover-image class="pin" src="/resources/pin.png" bindtap="controlTap"></cover-image>
+            </cover-view>
+            <cover-view class="center_con">
+                <cover-image class="center" src="/resources/center.png" bindtap="controlTap"></cover-image>
+            </cover-view>
+        </map>
+    </view>
+    <view class="btns">
+        <view class="btn btn_active">
+            <navigator url="/pages/publish/publish">
+                发布
+            </navigator>
+        </view>
+        <view class="btn">
+            <navigator url="/pages/search/search">
+                搜索
+            </navigator>
+        </view>
+    </view>
+</view>

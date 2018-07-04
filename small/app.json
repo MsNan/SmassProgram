@@ -1,0 +1,14 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/publish/publish",
+        "pages/search/search"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#03bbd5",
+        "navigationBarTitleText": "暖暖鱼友圈",
+        "navigationBarTextStyle": "#fff",
+        "disableScroll": true
+    }
+}
